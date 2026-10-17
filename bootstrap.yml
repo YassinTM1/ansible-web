@@ -1,0 +1,5 @@
+- name: Bootstrap alle webservers
+  hosts: webservers
+  become: true
+  roles:
+    - bootstrap
